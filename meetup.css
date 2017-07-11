@@ -1,0 +1,129 @@
+           /*Register*/
+           
+           @font-face {
+               font-family: "robo";
+               src: url('robol.ttf');
+           }
+           
+           #conect {
+               margin-bottom: 0;
+               background-color: #fff;
+           }
+           
+           #register {
+               background-color: #fff;
+           }
+           
+           #bodi {
+               font-family: "robo";
+               background-image: url('bmx.jpg');
+               background-size: cover;
+           }
+           
+           #titre {
+               font-size: 50px;
+               color: #fff;
+           }
+           
+           #titre:after {
+               display: block;
+               content: '';
+               border-bottom: 2px solid #fff;
+               transform: scaleX(0);
+               transition: transform 250ms ease-in-out;
+           }
+           
+           #titre:before {
+               display: block;
+               content: '';
+               border-top: 2px solid #fff;
+               transform: scaleX(0);
+               transition: transform 250ms ease-in-out;
+           }
+           
+           #titre:hover:after {
+               transform: scaleX(1);
+           }
+           
+           #titre:hover:before {
+               transform: scaleX(0.2);
+           }
+           /*fin register*/
+           /*debut account user*/
+           
+           #nav {
+               padding-top: 1em;
+               padding-bottom: 1em;
+           }
+           
+           #event {
+               color: black;
+               font-family: "robo";
+               font-size: 22px;
+               text-decoration: none;
+           }
+           
+           #deco {
+               color: black;
+               font-size: 22px;
+               font-family: "robo";
+               text-decoration: none;
+           }
+           
+           #title {
+               color: black;
+               font-size: 26px;
+               font-family: "robo";
+               text-decoration: none;
+               cursor: default;
+               border-bottom: 1px solid black;
+           }
+           
+           #acountimage {
+               font-family: "robo";
+               background-image: url('surf.jpg');
+               background-size: cover;
+           }
+           
+           #event_acount {
+               height: 8em;
+               font-size: 26px;
+               color: #fff;
+           }
+           
+           #evenement {
+               border: 0.2px solid whitesmoke;
+               margin-top: 0em;
+               background-color: rgba(0, 0, 0, 0.3);
+           }
+           
+           #events {
+               color: #fff;
+               font-size: 18px;
+               opacity: 1;
+           }
+           
+           #formevent {
+               margin-top: 1em;
+           }
+           
+           .page-header {
+               border-color: black;
+           }
+           
+           #create {
+               background-color: #fff;
+           }
+           
+           #creation {
+               font-family: "robo";
+               background-image: url('journo.jpg');
+               background-size: 100vw 127vh;
+           }
+           
+           #conteout {
+               font-size: 40px;
+               color: #fff;
+               top: 2em;
+               font-family: "robo";
+           }

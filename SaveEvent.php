@@ -28,8 +28,7 @@ $profil =$_SESSION['utilisateur'];
 
 if($Data->creatEvent($profil,$event)===true ){
    
-    echo "Votre evenement a bien été creé!";
-    echo'<a href="accountuser.php">return</a>';
+    header("location: accountuser.php");
 }else{
     echo "Oups il y a u une erreur!";
 }
